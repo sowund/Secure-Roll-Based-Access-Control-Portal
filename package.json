@@ -1,9 +1,19 @@
-"dependencies": {
-  "mongoose": "^8.0.0",
-  "express": "^4.19.0",
-  "cors": "^2.8.5",
-  "dotenv": "^16.4.5",
-  "express-session": "^1.18.0",
-  "passport": "^0.7.0",
-  "passport-google-oauth20": "^2.0.0"
+{
+  "name": "rbac-portal",
+  "version": "1.0.0",
+  "description": "Academic RBAC Portal",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "mongoose": "^8.0.0",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0"
+  }
 }
